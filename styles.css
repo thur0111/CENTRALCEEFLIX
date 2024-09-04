@@ -1,0 +1,106 @@
+body {
+    color: black;
+    background: lightgrey;
+    margin: 0px;
+    font-family: "Abril Fatface", serif;
+    margin-bottom: 100px;
+    }
+    
+    header {
+        border-bottom: solid 2px darkgrey;
+        padding: 20px;
+        font-size: 32px;
+        color: rgb(42, 44, 74)
+    }
+    
+    .chamada {
+        background: rgb(43, 56, 68);
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .chamada-texto {
+        margin-right: 5%;
+    }
+    
+    h1 {
+        font-size: 30px;
+        color: rgb(182, 195, 219)
+    }
+    
+    p {
+        font-size: 18px;
+        color: rgb(74, 91, 121)
+    }
+    
+    .categoria-video {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    
+    .categoria {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+    }
+    
+    h2 {
+        color: darkgray
+    }
+    
+    .categoria-video img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    
+    .categoria-video img:hover {
+        opacity: 1.0;
+        border: 2px solid rgb(209, 203, 203);
+    }
+    
+    .categorias {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+    }
+    
+    .categorias-videos {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    
+    .categorias-videos img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    
+    .categorias-videos img:hover {
+      opacity: 1.0;
+      border: 2px solid rgb(62, 87, 153);
+    }
+    
+    .categoriass {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+    }
+    
+    .categoriass-videoss {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    
+    .categoriass-videoss img {
+        opacity: 0.5;
+        height: 200px;
+    }
+    
+    .categoriass-videoss img:hover {
+      opacity: 1.0;
+      border: 2px solid darkgrey;
+    }
